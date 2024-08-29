@@ -1,0 +1,292 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: yellow;
+    max-width: 100vw;
+  }
+
+  .nav-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  .nav-links ul li {
+    padding: 14px;
+  }
+
+.first-Container{
+    background-image: url("./images/banner\ lambo\ 1.png");
+       height:600px;
+       background-size: cover;
+       position: relative;
+       /* background-color: red; */
+   }
+
+   
+   .first-Container .image-Content{
+   position: absolute;
+    right: 2%; 
+   bottom: 15%;
+   /* padding-left: 2vw; */
+   }
+   .second-container{
+       width: 90%;
+       background-color:#C4C4C4 ;
+       margin: 30px auto;
+       padding: 20px 30px;
+   }
+   
+   .second-container .pl{
+       display: flex;
+       justify-content: space-between;
+   }
+   .parent{
+       display:flex;
+       justify-content: flex-start;
+   }
+   
+   .placeholder{
+       border-radius: 25px;
+       width: 30%;
+       margin-top: 48px;
+       margin-left: 92px;
+   }
+   .bo{
+       padding: 14px 30px;
+       background-color: #21408E;
+       border-radius: 20px;
+       border: none;
+       color: white;   
+   }
+   .container {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+   }
+   
+   .container > div {
+       background-size: cover;
+       width: 50%;
+   }
+   
+   .content2 {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+   }
+   
+   .content2 h1 {
+       margin-bottom: 20px;
+   }
+   
+   .img {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+   }  
+   .content2 >h3{
+       /* margin-left: 73px;
+       margin-top: -67px; */
+       margin-bottom: -104px;
+   }
+   .content2 >p{
+       margin-left:100px;
+   }
+   /* .container.content2.para.h3{
+    margin-left: 115px;
+    margin-top: -70px;
+   }
+
+   .container.content2.para.p{
+    margin-left: 115px;
+    margin-top: -70px;
+   }
+   .container.content2.parent-2.p{
+    margin-left: 292px;
+    margin-right: -161px;
+   }
+   .container.content2.parent-2.h3{
+    margin-left: 292px;
+    margin-right: -161px;
+   } */
+
+   .icons img {
+       width: 50px;
+       margin-bottom: 20px;
+   }
+   
+   .services {
+       display: flex;
+       flex-direction: column;
+       margin-top: -120px;
+   }
+   
+   .services h3 {
+       margin-bottom: 20px;
+   }
+   
+   .descriptions {
+       margin-top: 20px;
+   }
+   
+   .descriptions p {
+       margin-bottom: 20px;
+   }
+   
+   
+   /* .third-container .third-container-right{
+       width:50%;
+       position: relative;
+   }
+   .img{
+       display:flex;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+   .third-container .third-container-right h3{
+       position: absolute;
+       margin-top: -190px;
+       margin-left: 52px;
+   
+   }
+   .third-container .third-container-right p{
+       position: absolute;
+       margin-top: -330px;
+       margin-left: 50px;
+   } */
+   .fourth-container{
+       width:100%;
+       height:50px;
+       background-color:white;
+       margin-top: 300px;
+   }
+   .fourth-container .para{
+       display:flex;
+       justify-content: space-around;
+   }
+   .fourth-container .img-2{
+       height: 140px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+   }
+   .fifth-container{
+       background-color: white;
+   }
+   .fifth-container h2{
+       text-align: center;
+       margin-top: 350px;
+   }
+   .fifth-container .images{
+       display:flex;
+       justify-content:  center;;
+       height: 41px;
+       margin-left: 85px
+   }
+   .sixth-container{
+       background-color: #FFFFFF;
+       height: 20px;
+   }
+   .sixth-container h2{
+       text-align: center;
+   }
+   .sixth-container p {
+       margin-top: -20px;
+       margin-left: 87px;
+   }
+   .container-2{
+       display: flex;
+   }
+   .container-2>div{
+       width:30%
+   }
+   .img-1 h3{
+        margin-right: 20px;
+   }
+   
+   .images{
+       display: block;
+       margin:auto;
+   }
+   .img-3{
+       justify-content: space-evenly;
+       display: flex;
+       flex-direction: row;
+   }
+   .sixth-container h3{
+       margin-left: 90px;
+       margin-bottom:20px;
+   }
+   .sixth-container p{
+       margin-top:-20px;
+       margin-left: 20px;
+   }
+   .seventh-container{
+       width:100%;
+       /* height:50px; */
+       /* position: relative;  */
+       
+   }
+   .h3{
+       position:absolute;
+       padding-left: 200px;
+       padding-top: 81px;
+      transform: translate(-39%, -200%);
+       color:white;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       width:100vw;
+       /* margin-top: -45px; */
+   } 
+   .seventh-container .h2{
+       position:absolute;
+       padding-left: 200px;
+       padding-top:0px;
+      transform: translate(-42%, -151%);
+       color:white;
+   }
+   .placeholder{
+       position:absolute;
+       padding-left: 200px;
+       padding-top:0px;
+      transform: translate(-1%, -200%);
+       color:white;
+   }
+   .eigth-container{
+       width:100%;
+       height:50px;
+       background-color:#F1BC00 ;
+       margin-top: 316px;
+       height: 100px;
+   }
+   .eigth-container h2{
+       margin-left: 122px;
+       padding-top:3px;
+   }
+   .placeholder-2{
+      
+       margin-top: 30px;
+       margin-left: 873px;
+   }
+   
+   .ninth-container{
+       width:100%;
+       height:350px;
+       background-color: #081630;
+   }
+   
+   .ninth-container ul{
+       list-style-type: none;
+       display: flex;
+       flex-direction: column;
+       color:#FFFFFF;
+   }
+   .ninth-container ul li{
+       padding: 20px;
+   }
